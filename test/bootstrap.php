@@ -6,6 +6,10 @@
  * and open the template in the editor.
  */
 
+/**
+ * @author yangwawa0323@163.com and 12238747@qq.com
+ */
+
 use Doctrine\MongoDB\Connection;
 use Doctrine\ODM\MongoDB\Configuration;
 use Doctrine\ODM\MongoDB\DocumentManager;
