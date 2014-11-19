@@ -1,0 +1,19 @@
+{# empty Twig template #}
+
+<hr/>
+{{ form_start(form,{'attr': {'novalidate': 'novalidate'},'action': path('wo_yao_task_success'), 'method':'GET'}) }}
+
+{{ form_row(form.task) }}
+{{ form_row(form.dueDate) }}
+{{ form_errors(form) }}
+{{ form_end(form) }}
+
+<hr/>
+{{ form.task.vars.value }}
+<hr/>
+{{ form.task.vars.full_name }}
+<hr/>
+{{ form.task.vars.name }}
+<hr/>
+{{ form.task.vars.id }}
+{#, { 'attr': { 'novalidate':'novalidate' }} #}

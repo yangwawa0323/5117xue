@@ -1,0 +1,3 @@
+wo_yao_promotional_activity_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: WoYaoPromotionalActivityBundle:Default:index }

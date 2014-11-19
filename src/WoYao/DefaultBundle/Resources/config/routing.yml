@@ -1,0 +1,18 @@
+wo_yao_default_homepage:
+    path:     /
+    defaults: { _controller: WoYaoDefaultBundle:Default:index }
+
+wo_yao_welcome_page:
+    path:     /{name}
+    defaults:     { _controller: WoYaoDefaultBundle:Default:welcome }
+    requirements:
+            name:    \d+
+            
+wo_yao_new_task:
+    path:    /newtask
+    defaults:    { _controller: WoYaoDefaultBundle:Default:new }
+
+wo_yao_task_success:
+    path:   /task_success
+    defaults:   { _controller: WoYaoDefaultBundle:Default:task_success }
+    

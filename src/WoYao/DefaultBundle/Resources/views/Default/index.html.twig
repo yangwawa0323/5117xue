@@ -1,0 +1,129 @@
+{# {% extends "::base.html.twig" %} #}
+
+{% extends "WoYaoDefaultBundle:Default:base.html.twig" %}
+
+{% block head %}
+    {{ parent() }}   
+
+
+{% endblock %}
+
+
+{% set htmlCode = "<div><p><font color='red'>Show title bar</font></p><div>" %}
+{% set testarray = [ 'hello' ,'world' ] %}
+{% block body  %}
+    <body>
+
+        <code>
+            {#
+            Nice to meet you -> {{ username }}!<br>
+            You are welcome. you uuid is -> {{ uuid }}
+            <hr/>
+            <h1>{{ htmlCode | striptags| capitalize }}</h1>
+            #}
+            <p>There is a code are</p>
+            <br/><br/>
+        </code>
+
+        <div style="margin-top: 18px;" class="btn-toolbar">
+            <div class="btn-group">
+                <button data-toggle="dropdown" class="btn dropdown-toggle">Action <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </div><!-- /btn-group -->
+            <div class="btn-group">
+                <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Action <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </div><!-- /btn-group -->
+            <div class="btn-group">
+                <button data-toggle="dropdown" class="btn btn-danger dropdown-toggle">Danger <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </div><!-- /btn-group -->
+        </div>
+        <div class="widget-box">
+            <div class="widget-title">
+                <span class="icon">
+                    <i class="icon-file"></i>
+                </span>
+                <h5>Recent Posts</h5>
+            </div>
+            <div class="widget-content nopadding">
+                <ul class="recent-posts">
+                    <li>
+                        <div class="user-thumb">
+                            <img width="40" height="40" alt="User" src="{{ asset('bundles/woyaodefault/img/demo/av2.jpg') }}">
+                        </div>
+                        <div class="article-post">
+                            <span class="user-info"> By: neytiri on 2 Aug 2012, 09:27 AM, IP: 186.56.45.7 </span>
+                            <p>
+                                <a href="#">Vivamus sed auctor nibh congue, ligula vitae tempus pharetra...</a>
+                            </p>
+                            <a href="#" class="btn btn-primary btn-mini">Edit</a> <a href="#" class="btn btn-success btn-mini">Publish</a> <a href="#" class="btn btn-danger btn-mini">Delete</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="user-thumb">
+                            <img width="40" height="40" alt="User" src="{{ asset('bundles/woyaodefault/img/demo/av3.jpg') }}">
+                        </div>
+                        <div class="article-post">
+                            <span class="user-info"> By: john on on 24 Jun 2012, 04:12 PM, IP: 192.168.24.3 </span>
+                            <p>
+                                <a href="#">Vivamus sed auctor nibh congue, ligula vitae tempus pharetra...</a>
+                            </p>
+                            <a href="#" class="btn btn-primary btn-mini">Edit</a> <a href="#" class="btn btn-success btn-mini">Publish</a> <a href="#" class="btn btn-danger btn-mini">Delete</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="user-thumb">
+                            <img width="40" height="40" alt="User" src="{{ asset('bundles/woyaodefault/img/demo/av1.jpg') }}">
+                        </div>
+                        <div class="article-post">
+                            <span class="user-info"> By: michelle on 22 Jun 2012, 02:44 PM, IP: 172.10.56.3 </span>
+                            <p>
+                                <a href="#">Vivamus sed auctor nibh congue, ligula vitae tempus pharetra...</a>
+                            </p>
+                            <a href="#" class="btn btn-primary btn-mini">Edit</a> <a href="#" class="btn btn-success btn-mini">Publish</a> <a href="#" class="btn btn-danger btn-mini">Delete</a>
+                        </div>
+                    </li>
+                    <li class="viewall">
+                        <a class="tip-top" href="#" data-original-title="View all posts"> + View all + </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="widget-box">
+            <div class="widget-title">
+                <ul class="nav nav-tabs">
+                    <li class=""><a data-toggle="tab" href="#tab1">Home</a></li>
+                    <li class="active"><a data-toggle="tab" href="#tab2">Profile</a></li>
+                    <li class=""><a data-toggle="tab" href="#tab3">Messages</a></li>
+                </ul>
+            </div>
+            <div class="widget-content tab-content">
+                <div id="tab1" class="tab-pane">Tab One Content</div>
+                <div id="tab2" class="tab-pane active">This is a Tab Two Content</div>
+                <div id="tab3" class="tab-pane">This is a Tab Three Content</div>
+            </div>                            
+        </div>
+    </body>
+{% endblock %}
+
+
