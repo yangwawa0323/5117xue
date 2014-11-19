@@ -1,0 +1,15 @@
+acme_store:
+    resource: "@AcmeStoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+wo_yao_admin:
+    resource: "@WoYaoAdminBundle/Resources/config/routing.yml"
+    prefix:   /
+
+wo_yao_promotional_activity:
+    resource: "@WoYaoPromotionalActivityBundle/Resources/config/routing.yml"
+    prefix:   /
+
+wo_yao_default:
+    resource: "@WoYaoDefaultBundle/Resources/config/routing.yml"
+    prefix:   /

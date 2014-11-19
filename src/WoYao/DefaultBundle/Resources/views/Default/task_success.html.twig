@@ -1,0 +1,10 @@
+{# empty Twig template #}
+
+<p>
+    You are create a new task succeefully.
+</p>
+{% spaceless %}
+{{ task.dueDate | date('m/d/y')}}<br/>
+
+{{ task.task }}
+{% endspaceless %}
