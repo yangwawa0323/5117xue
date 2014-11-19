@@ -6,7 +6,6 @@ class myIterator implements Iterator {
         "secondelement",
         "lastelement",
     );  
-
     public function __construct() {
         $this->position = 0;
     }
