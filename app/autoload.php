@@ -12,5 +12,9 @@ $loader = require __DIR__.'/../vendor/autoload.php';
 AnnotationDriver::registerAnnotationClasses();
 AnnotationRegistry::registerLoader(array($loader, 'loadClass'));
 
+// Requirement for dompdf
+define('DOMPDF_ENABLE_AUTOLOAD',false);
+require_once __DIR__ . '../vendor/dompdf/dompdf/dompdf_config.inc.php';
+
 
 return $loader;
