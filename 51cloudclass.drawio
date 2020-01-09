@@ -1,9 +1,12 @@
-<mxfile host="www.draw.io" modified="2020-01-09T12:56:38.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="eOFDvcFhe4VGmFVJK3hp" version="12.5.1" type="github">
+<mxfile host="www.draw.io" modified="2020-01-09T12:58:55.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="IyEUBYq7qSaD7uW-7Q-M" version="12.5.1" type="github">
   <diagram id="jfZIMn2UsCP_KYUvGLMN" name="Page-1">
-    <mxGraphModel dx="640" dy="1497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1490" dy="1497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
+        <mxCell id="vH36zvX7O-DuhWRN2NgF-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#7F00FF;strokeWidth=2;fontFamily=Verdana;exitX=0.138;exitY=1.023;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vH36zvX7O-DuhWRN2NgF-13" target="vH36zvX7O-DuhWRN2NgF-29">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="vH36zvX7O-DuhWRN2NgF-12" value="User" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Verdana;arcSize=17;" vertex="1" parent="1">
           <mxGeometry x="20" y="-150" width="160" height="160" as="geometry"/>
         </mxCell>
@@ -16,12 +19,6 @@
         <mxCell id="vH36zvX7O-DuhWRN2NgF-15" value="+Description&#xa;+CanRead&#xa;+CanPost&#xa;+CanEdit&#xa;+CanDelete&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Verdana;" vertex="1" parent="vH36zvX7O-DuhWRN2NgF-14">
           <mxGeometry y="30" width="160" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="vH36zvX7O-DuhWRN2NgF-17" value="News" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="20" y="160" width="160" height="120" as="geometry"/>
-        </mxCell>
-        <mxCell id="vH36zvX7O-DuhWRN2NgF-18" value="+NewsID&#xa;+Title&#xa;+Content&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Verdana;" vertex="1" parent="vH36zvX7O-DuhWRN2NgF-17">
-          <mxGeometry y="30" width="160" height="90" as="geometry"/>
-        </mxCell>
         <mxCell id="vH36zvX7O-DuhWRN2NgF-19" value="Video" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="590" y="80" width="200" height="110" as="geometry">
             <mxRectangle x="590" y="80" width="70" height="30" as="alternateBounds"/>
@@ -29,12 +26,6 @@
         </mxCell>
         <mxCell id="vH36zvX7O-DuhWRN2NgF-20" value="+StaticURL&#xa;+VType(1:Video,2:ASCIInema)&#xa;+FilePath" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Verdana;" vertex="1" parent="vH36zvX7O-DuhWRN2NgF-19">
           <mxGeometry y="30" width="200" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="vH36zvX7O-DuhWRN2NgF-21" value="Classes" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="20" y="310" width="160" height="120" as="geometry"/>
-        </mxCell>
-        <mxCell id="vH36zvX7O-DuhWRN2NgF-22" value="+ClassID(PK)&#xa;+ClassName&#xa;+Description" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Verdana;" vertex="1" parent="vH36zvX7O-DuhWRN2NgF-21">
-          <mxGeometry y="30" width="160" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="vH36zvX7O-DuhWRN2NgF-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;strokeWidth=2;" edge="1" parent="1" source="vH36zvX7O-DuhWRN2NgF-13" target="vH36zvX7O-DuhWRN2NgF-15">
           <mxGeometry relative="1" as="geometry"/>
@@ -62,7 +53,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vH36zvX7O-DuhWRN2NgF-29" value="Reply" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="30" y="530" width="160" height="130" as="geometry"/>
+          <mxGeometry x="-40" y="340" width="160" height="130" as="geometry"/>
         </mxCell>
         <mxCell id="vH36zvX7O-DuhWRN2NgF-30" value="+RID&#xa;+ReplyText&#xa;+QID&#xa;+RID(default=Null)&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Verdana;" vertex="1" parent="vH36zvX7O-DuhWRN2NgF-29">
           <mxGeometry y="30" width="160" height="100" as="geometry"/>
@@ -73,7 +64,7 @@
             <Array as="points">
               <mxPoint x="200" y="117"/>
               <mxPoint x="200" y="190"/>
-              <mxPoint x="80" y="190"/>
+              <mxPoint x="120" y="190"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -99,6 +90,18 @@
           <mxGeometry x="370" y="470" width="160" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="vH36zvX7O-DuhWRN2NgF-32" value="+QID&#xa;+QuestionText&#xa;+PostTime&#xa;+UID" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Verdana;" vertex="1" parent="vH36zvX7O-DuhWRN2NgF-31">
+          <mxGeometry y="30" width="160" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="vH36zvX7O-DuhWRN2NgF-17" value="News" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="680" y="380" width="160" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="vH36zvX7O-DuhWRN2NgF-18" value="+NewsID&#xa;+Title&#xa;+Content&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Verdana;" vertex="1" parent="vH36zvX7O-DuhWRN2NgF-17">
+          <mxGeometry y="30" width="160" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="vH36zvX7O-DuhWRN2NgF-21" value="Classes" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="760" y="220" width="160" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="vH36zvX7O-DuhWRN2NgF-22" value="+ClassID(PK)&#xa;+ClassName&#xa;+Description" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Verdana;" vertex="1" parent="vH36zvX7O-DuhWRN2NgF-21">
           <mxGeometry y="30" width="160" height="90" as="geometry"/>
         </mxCell>
       </root>
