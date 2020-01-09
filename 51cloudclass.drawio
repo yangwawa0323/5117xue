@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-09T12:58:55.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="IyEUBYq7qSaD7uW-7Q-M" version="12.5.1" type="github">
+<mxfile host="www.draw.io" modified="2020-01-09T13:00:32.861Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="cbfE0BJzhRg4R-EIKu5B" version="12.5.1" type="github">
   <diagram id="jfZIMn2UsCP_KYUvGLMN" name="Page-1">
     <mxGraphModel dx="1490" dy="1497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,23 +37,23 @@
           <mxGeometry y="30" width="160" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="vH36zvX7O-DuhWRN2NgF-26" value="Payment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="270" y="320" width="160" height="120" as="geometry"/>
+          <mxGeometry x="310" y="240" width="160" height="120" as="geometry"/>
         </mxCell>
-        <mxCell id="vH36zvX7O-DuhWRN2NgF-27" value="+UID&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Verdana;" vertex="1" parent="vH36zvX7O-DuhWRN2NgF-26">
+        <mxCell id="vH36zvX7O-DuhWRN2NgF-27" value="+UID&#xa;+PayType&#xa;+Price&#xa;+PayTime&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Verdana;" vertex="1" parent="vH36zvX7O-DuhWRN2NgF-26">
           <mxGeometry y="30" width="160" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="vH36zvX7O-DuhWRN2NgF-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Verdana;fillColor=#ffff88;strokeColor=#66CC00;strokeWidth=2;" edge="1" parent="1" source="vH36zvX7O-DuhWRN2NgF-13" target="vH36zvX7O-DuhWRN2NgF-26">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="120" as="sourcePoint"/>
             <Array as="points">
-              <mxPoint x="90" y="140"/>
+              <mxPoint x="100" y="140"/>
               <mxPoint x="240" y="140"/>
-              <mxPoint x="240" y="380"/>
+              <mxPoint x="240" y="300"/>
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vH36zvX7O-DuhWRN2NgF-29" value="Reply" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="340" width="160" height="130" as="geometry"/>
+          <mxGeometry x="-100" y="270" width="160" height="130" as="geometry"/>
         </mxCell>
         <mxCell id="vH36zvX7O-DuhWRN2NgF-30" value="+RID&#xa;+ReplyText&#xa;+QID&#xa;+RID(default=Null)&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Verdana;" vertex="1" parent="vH36zvX7O-DuhWRN2NgF-29">
           <mxGeometry y="30" width="160" height="100" as="geometry"/>
